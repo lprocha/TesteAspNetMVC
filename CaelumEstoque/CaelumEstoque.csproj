@@ -97,6 +97,7 @@
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\reset.css" />
+    <Content Include="Content\css\Site.css" />
     <Content Include="Content\img\module_table_bottom.png" />
     <Content Include="Content\img\module_table_top.png" />
     <Content Include="Global.asax" />
@@ -144,6 +145,7 @@
     <Content Include="Views\Produto\Form.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Produto\Visualiza.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
