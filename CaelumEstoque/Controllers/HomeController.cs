@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using CaelumEstoque.Filtros;
 
 namespace CaelumEstoque.Controllers
 {
+    [AutorizacaoFilter]
     public class HomeController : Controller
     {
         //

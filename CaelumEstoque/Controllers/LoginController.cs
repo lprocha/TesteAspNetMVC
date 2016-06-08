@@ -25,6 +25,7 @@ namespace CaelumEstoque.Controllers
             }
             else
             {
+                Session["usuarioLogado"] = null;
                 return RedirectToAction("Index"); ;
             }
         }

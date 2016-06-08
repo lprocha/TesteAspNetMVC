@@ -2,9 +2,11 @@
 using System.Web.Mvc;
 using CaelumEstoque.DAO;
 using CaelumEstoque.Models;
+using CaelumEstoque.Filtros;
 
 namespace CaelumEstoque.Controllers
 {
+    [AutorizacaoFilter]
     public class CategoriaController : Controller
     {
         // GET: Categoria

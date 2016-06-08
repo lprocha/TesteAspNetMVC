@@ -1,8 +1,10 @@
 ﻿using System.Web.Mvc;
 using System;
+using CaelumEstoque.Filtros;
 
 namespace CaelumEstoque.Controllers
 {
+    [AutorizacaoFilter]
     public class ContadorController : Controller
     {
         // GET: Contador
