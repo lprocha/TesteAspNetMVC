@@ -27,7 +27,7 @@
         var url = "@Url.Action("DecrementaQuantidade", "Produto")";
         var params = { id: produtoId };
         $.post(url, params, atualiza);
-    }
+    }   
 
     function atualiza(resposta) {
         var elemento = $("#quantidade" + resposta.Id);
